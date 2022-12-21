@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:moodvi/constants.dart';
 import 'package:moodvi/views/screens/auth/login_screen.dart';
-
-import 'views/screens/auth/signup_screen.dart';
+import 'package:moodvi/views/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home:  SignupScreen(),
+      home:  HomeScreen(),
     );
   }
 }
