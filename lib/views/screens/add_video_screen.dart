@@ -16,7 +16,7 @@ class AddVideoScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(7.0),
                 child: Text(
-                  ' Gallery',
+                  ' Map of the world',
                   style: TextStyle(fontSize: 20),
                 ),
               ),

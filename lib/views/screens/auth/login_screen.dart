@@ -83,7 +83,13 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 20),
                 ),
                 InkWell(
-                  onTap: () =>print('register'),
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => SignupScreen(),
+                      ),
+                    );
+                  },
                   child: Text(
                     ' Register',
                     style: TextStyle(
