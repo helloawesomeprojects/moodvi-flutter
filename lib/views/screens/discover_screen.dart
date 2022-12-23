@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:moodvi/constants.dart';
 
-class AddVideoScreen extends StatelessWidget {
-  const AddVideoScreen({Key? key}) : super(key: key);
+class DiscoverScreen extends StatelessWidget {
+  const DiscoverScreen({Key? key}) : super(key: key);
 
   showOptionsDialog(BuildContext context) {
     return showDialog(
@@ -41,7 +41,7 @@ class AddVideoScreen extends StatelessWidget {
             decoration: BoxDecoration(color: buttonColor),
             child: const Center(
               child: Text(
-                'Add Video',
+                'Discover the world',
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.black,

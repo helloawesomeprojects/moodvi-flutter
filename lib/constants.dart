@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:moodvi/views/screens/add_video_screen.dart';
+import 'package:moodvi/views/screens/discover_screen.dart';
 
 const pages=[
   Text('Home Screen'),
-  Text('Search Screen'),
+  DiscoverScreen(),
   AddVideoScreen(),
   Text('All notifications'),
   Text('Profile'),
