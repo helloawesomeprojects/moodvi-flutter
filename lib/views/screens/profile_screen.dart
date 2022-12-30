@@ -29,4 +29,29 @@ lass DiscoverScreen extends StatelessWidget {
     );
   }
 
-  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: InkWell(
+          onTap: () =>showOptionsDialog(context),
+          child: Container(
+            width: 190,
+            height: 50,
+            decoration: BoxDecoration(color: buttonColor),
+            child: const Center(
+              child: Text(
+                'Discover the world',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
