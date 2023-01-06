@@ -5,6 +5,7 @@ It is aa app of moodvi
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+an application should be a good set
 
 A few resources to get you started if this is your first Flutter project:
 
